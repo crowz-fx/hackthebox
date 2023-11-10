@@ -1,0 +1,9 @@
+- https://github.com/nmap/nmap
+- https://github.com/OJ/gobuster
+- https://github.com/SpiderLabs/Responder
+- mysql
+- redis
+- john the ripper
+- https://github.com/Hackplayers/evil-winrm
+- wordlists
+- 

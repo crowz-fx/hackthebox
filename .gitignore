@@ -1,2 +1,4 @@
 *.ovpn
 .DS_Store
+tools/
+*.pdf

@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Fri Nov 10 22:40:05 2023 as: nmap -sS -sV -sC -p- -oA nmap/initial 10.129.21.149
+Host: 10.129.21.149 ()	Status: Up
+Host: 10.129.21.149 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.52 ((Win64) OpenSSL|1.1.1m PHP|8.1.1)/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 7680/open/tcp//pando-pub?///	Ignored State: filtered (65532)
+# Nmap done at Fri Nov 10 22:43:26 2023 -- 1 IP address (1 host up) scanned in 201.02 seconds
