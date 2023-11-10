@@ -1,7 +1,7 @@
 # Snippets
 Contains handy commands and code snippets for use...
 
-## NMAP Scanning
+## Nmap Scanning
 ```
 sudo nmap -sS -sV -sC -oA nmap/<filename> $IP
 ```
@@ -12,7 +12,7 @@ sudo nmap -sS -sV -sC -oA nmap/<filename> $IP
 CRTL + U
 ```
 
-## Gobuster
+## GoBuster
 
 ### Iterate over directories
 ```
