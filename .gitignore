@@ -2,4 +2,5 @@
 .DS_Store
 tools/
 *.pdf
-sherlocks/
+sherlocks/active/
+machines/active/
