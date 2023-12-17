@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Sun Dec 17 18:08:04 2023 as: nmap -sS -sV -sC -p- -oA nmap/initial 10.129.16.3
+Host: 10.129.16.3 ()	Status: Up
+Host: 10.129.16.3 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 6789/open/tcp//ibm-db2-admin?///, 8080/open/tcp//http-proxy///, 8443/open/tcp//ssl|nagios-nsca//Nagios NSCA/, 8843/open/tcp//ssl|unknown///, 8880/open/tcp//cddbp-alt?///	Ignored State: closed (65529)
+# Nmap done at Sun Dec 17 18:11:48 2023 -- 1 IP address (1 host up) scanned in 224.16 seconds

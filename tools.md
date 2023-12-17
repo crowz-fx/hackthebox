@@ -37,6 +37,7 @@
 - Whisker
 - Rubeus
 - [GTFObins](https://gtfobins.github.io/)
+- [rogue-jndi](https://github.com/veracode-research/rogue-jndi)
 
 ## Shells/Access
 - [evil-winrm](https://github.com/Hackplayers/evil-winrm)
