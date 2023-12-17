@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Sun Dec 17 17:04:46 2023 as: nmap -sS -sV -sC -p- -oA nmap/initial 10.129.168.10
+Host: 10.129.168.10 ()	Status: Up
+Host: 10.129.168.10 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 8.0p1 Ubuntu 6ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/
+# Nmap done at Sun Dec 17 17:05:42 2023 -- 1 IP address (1 host up) scanned in 55.70 seconds

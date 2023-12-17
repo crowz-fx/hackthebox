@@ -10,7 +10,7 @@
 - [wfuzz](https://github.com/xmendez/wfuzz)
 - [ffuf](https://github.com/ffuf/ffuf)
 - chisel
-- linpeas
+- linpeas / winpeas
 
 ## Generators
 - crunch
@@ -25,6 +25,9 @@
 - mysql
 - redis
 
+## Injection
+- [sqlmap](https://github.com/sqlmapproject/sqlmap)
+
 ## Network Analysis
 - wireshark
 
@@ -33,6 +36,7 @@
 - metasploit
 - Whisker
 - Rubeus
+- [GTFObins](https://gtfobins.github.io/)
 
 ## Shells/Access
 - [evil-winrm](https://github.com/Hackplayers/evil-winrm)
@@ -46,6 +50,8 @@
 - [john-the-ripper](https://github.com/openwall/john)
 - [crackstation](https://crackstation.net/)
 - hydra
+- hashcat
+- hashid
 
 ## Forensic Analysis
 ### Windows Artifacts

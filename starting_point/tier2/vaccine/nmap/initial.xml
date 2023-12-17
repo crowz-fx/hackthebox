@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Sun Dec 17 17:04:46 2023 as: nmap -sS -sV -sC -p- -oA nmap/initial 10.129.168.10 -->
+<nmaprun scanner="nmap" args="nmap -sS -sV -sC -p- -oA nmap/initial 10.129.168.10" start="1702832686" startstr="Sun Dec 17 17:04:46 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.168.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1702832689" percent="7.44" remaining="25" etc="1702832714"/>
+<taskprogress task="SYN Stealth Scan" time="1702832691" percent="13.49" remaining="26" etc="1702832717"/>
+<taskprogress task="SYN Stealth Scan" time="1702832693" percent="18.37" remaining="27" etc="1702832720"/>
+<taskprogress task="SYN Stealth Scan" time="1702832694" percent="21.87" remaining="26" etc="1702832719"/>
+<taskprogress task="SYN Stealth Scan" time="1702832695" percent="25.08" remaining="24" etc="1702832719"/>
+<taskprogress task="SYN Stealth Scan" time="1702832695" percent="26.93" remaining="22" etc="1702832717"/>
+<taskprogress task="SYN Stealth Scan" time="1702832695" percent="28.28" remaining="21" etc="1702832715"/>
+<taskprogress task="SYN Stealth Scan" time="1702832696" percent="29.12" remaining="22" etc="1702832718"/>
+<taskprogress task="SYN Stealth Scan" time="1702832696" percent="29.89" remaining="22" etc="1702832717"/>
+<taskprogress task="SYN Stealth Scan" time="1702832696" percent="30.65" remaining="21" etc="1702832716"/>
+<taskprogress task="SYN Stealth Scan" time="1702832696" percent="31.41" remaining="20" etc="1702832716"/>
+<taskprogress task="SYN Stealth Scan" time="1702832696" percent="32.02" remaining="20" etc="1702832715"/>
+<taskprogress task="SYN Stealth Scan" time="1702832697" percent="32.79" remaining="21" etc="1702832718"/>
+<taskprogress task="SYN Stealth Scan" time="1702832697" percent="33.32" remaining="21" etc="1702832717"/>
+<taskprogress task="SYN Stealth Scan" time="1702832697" percent="34.46" remaining="20" etc="1702832716"/>
+<taskprogress task="SYN Stealth Scan" time="1702832704" percent="49.14" remaining="18" etc="1702832722"/>
+<taskprogress task="SYN Stealth Scan" time="1702832712" percent="63.06" remaining="15" etc="1702832727"/>
+<taskprogress task="SYN Stealth Scan" time="1702832716" percent="68.87" remaining="14" etc="1702832729"/>
+<taskprogress task="SYN Stealth Scan" time="1702832717" percent="69.01" remaining="14" etc="1702832730"/>
+<taskprogress task="SYN Stealth Scan" time="1702832717" percent="69.84" remaining="13" etc="1702832730"/>
+<taskprogress task="SYN Stealth Scan" time="1702832718" percent="70.49" remaining="13" etc="1702832731"/>
+<taskprogress task="SYN Stealth Scan" time="1702832718" percent="71.00" remaining="13" etc="1702832731"/>
+<taskprogress task="SYN Stealth Scan" time="1702832718" percent="71.39" remaining="13" etc="1702832730"/>
+<taskprogress task="SYN Stealth Scan" time="1702832718" percent="72.15" remaining="12" etc="1702832730"/>
+<taskprogress task="Service scan" time="1702832741" percent="66.67" remaining="4" etc="1702832744"/>
+<host starttime="1702832687" endtime="1702832742"><status state="up" reason="reset" reason_ttl="63"/>
+<address addr="10.129.168.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65481">
+<extrareasons reason="reset" count="65481" proto="tcp" ports="1-20,23-79,81-1468,1470-3371,3373-3987,3989-4509,4511-4811,4813-6649,6651-8840,8842-10014,10016-10076,10078-11268,11270-11611,11613-12644,12646-12844,12846-13576,13578-18511,18513-22295,22297-22725,22727-23116,23118-24057,24059-24350,24352-24440,24442-24444,24446-26712,26714-27476,27478-27519,27521-27657,27659-28823,28825-29648,29650-32068,32070-32513,32515-35844,35846-40662,40664-40785,40787-41544,41546-42035,42037-43457,43459-44032,44034-45722,45724-48161,48163-49395,49397-51039,51041-51316,51318-55600,55602-56034,56036-57395,57397-58865,58867-61459,61461-63276,63278-64275,64277-64549,64551-64991,64993-65535"/>
+</extraports>
+<extraports state="filtered" count="51">
+<extrareasons reason="no-response" count="51" proto="tcp" ports="1469,3372,3988,4510,4812,6650,8841,10015,10077,11269,11612,12645,12845,13577,18512,22296,22726,23117,24058,24351,24441,24445,26713,27477,27520,27658,28824,29649,32069,32514,35845,40663,40786,41545,42036,43458,44033,45723,48162,49396,51040,51317,55601,56035,57396,58866,61460,63277,64276,64550,64992"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ftp" product="vsftpd" version="3.0.3" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd:3.0.3</cpe></service><script id="ftp-syst" output="&#xa;  STAT: &#xa;FTP server status:&#xa;     Connected to ::ffff:10.10.15.167&#xa;     Logged in as ftpuser&#xa;     TYPE: ASCII&#xa;     No session bandwidth limit&#xa;     Session timeout in seconds is 300&#xa;     Control connection is plain text&#xa;     Data connections will be plain text&#xa;     At session startup, client count was 1&#xa;     vsFTPd 3.0.3 - secure, fast, stable&#xa;End of status"><elem key="STAT">&#xa;FTP server status:&#xa;     Connected to ::ffff:10.10.15.167&#xa;     Logged in as ftpuser&#xa;     TYPE: ASCII&#xa;     No session bandwidth limit&#xa;     Session timeout in seconds is 300&#xa;     Control connection is plain text&#xa;     Data connections will be plain text&#xa;     At session startup, client count was 1&#xa;     vsFTPd 3.0.3 - secure, fast, stable&#xa;End of status</elem>
+</script><script id="ftp-anon" output="Anonymous FTP login allowed (FTP code 230)&#xa;-rwxr-xr-x    1 0        0            2533 Apr 13  2021 backup.zip"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.0p1 Ubuntu 6ubuntu0.1" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.0p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 c0:ee:58:07:75:34:b0:0b:91:65:b2:59:56:95:27:a4 (RSA)&#xa;  256 ac:6e:81:18:89:22:d7:a7:41:7d:81:4f:1b:b8:b2:51 (ECDSA)&#xa;  256 42:5b:c3:21:df:ef:a2:0b:c9:5e:03:42:1d:69:d0:28 (ED25519)"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQCzC28uKxt9pqJ4fLYmq/X5t7p44L+bUFQIDeEab29kDPnKdFOa9ijB5C5APVxLaAXVYSXATPYUqjIEWU98Vvvol1zuc82+KG9KfX94pD8TaPY2MZnoi9TfSxgwmKpmiRWR4DwwMS+mNo+WBU3sjB2QjgNip2vbiHxMitKeIfDLLFYiLKhc1eBRtooZ6DJzXQOMFp5QhSbZygWqebpFcsrmFnz9QWhx4MekbUnUVPKwCunycLi1pjrsmOAekbGz3/5R3H5tFSck915iqyc8bSkBZgRwW3FDJAXFmFgHG9fX727HsXFk8MXmVRMuH1LxGjvn1q3j27bb22QzprS7t9bJciWfwgt1sl57S0Q+iFbku83NgAFxUG373nspOHn08DwMllCyeLOG3Oy3x9zcCxMGATopiPckt8lb1GCWIvLPSNHMW12OyCKGM+AmLu4q9z7zX1YOUM6oxfn3qZVLKSZJ/DJu+aifv2BVNu/zJU2wdk1vFxysmQ4roj5O5I+H9x0=</elem>
+<elem key="bits">3072</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">c0ee58077534b00b9165b259569527a4</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNsSORVFGkIbgItDm/mxmyPhpsIJihXV8y4CQiMTWGdEVQatXNIlXX0yGLZ4JFtPEX9rOGAp/eLZc0mGJtDyuyQ=</elem>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">ac6e81188922d7a7417d814f1bb8b251</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIMXvk132UscLPAfaZyZ2Av54rpw9cP31OrloBE9v3SLW</elem>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">425bc321dfefa20bc95e03421d69d028</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-cookie-flags" output="&#xa;  /: &#xa;    PHPSESSID: &#xa;      httponly flag not set"><table key="/">
+<table key="PHPSESSID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+</script><script id="http-title" output="MegaCorp Login"><elem key="title">MegaCorp Login</elem>
+</script></port>
+</ports>
+<times srtt="10230" rttvar="664" to="100000"/>
+</host>
+<runstats><finished time="1702832742" timestr="Sun Dec 17 17:05:42 2023" summary="Nmap done at Sun Dec 17 17:05:42 2023; 1 IP address (1 host up) scanned in 55.70 seconds" elapsed="55.70" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
